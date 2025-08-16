@@ -23,7 +23,7 @@ local highlights  = {
   PmenuSel      = { fg = palette.bg, bg = palette.green },
   NormalFloat   = { fg = palette.fg, bg = palette.black },
   Directory     = { fg = palette.blue },
-  Search        = { bg = palette.br_gray },
+  Search        = { bg = palette.gray },
   CurSearch     = { fg = palette.bg, bg = palette.br_teal },
 
   -- Syntax Highlighting
