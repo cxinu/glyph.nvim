@@ -4,16 +4,12 @@ A minimal yet customizable Neovim colorscheme with **Lualine integration**.
 
 ![screenshot](https://user-images.githubusercontent.com/your-screenshot.png) <!-- optional screenshot -->
 
----
-
 ## ✨ Features
 
 - Dark background with soft, modern colors
 - Built-in **Lualine theme** (`glyph`)
 - Easy **highlight overrides** for customization
 - Lightweight, no dependencies
-
----
 
 ## 📦 Installation
 
@@ -27,15 +23,11 @@ A minimal yet customizable Neovim colorscheme with **Lualine integration**.
 }
 ```
 
----
-
 ## 🚀 Usage
 
 ```lua
 vim.cmd.colorscheme("glyph")
 ```
-
----
 
 ## ⚙️ Configuration
 
@@ -53,8 +45,6 @@ require("glyph").setup({
 - All highlight groups defined in `:h highlight-groups` are supported.
 - Overrides are merged with the defaults.
 
----
-
 ## 🎨 Lualine Integration
 
 `glyph.nvim` comes with its own lualine theme (`glyph`).
@@ -63,18 +53,14 @@ Just set it in your config:
 ```lua
 require("lualine").setup({
   options = {
-    theme = "glyph", // or leave blank for lualine to automatically pick it up
+    theme = "glyph", -- or leave blank for lualine to automatically pick it up
   }
 })
 ```
 
----
-
 ## 📷 Screenshots
 
 _(optional — add some screenshots of different modes: Normal, Insert, Visual, etc.)_
-
----
 
 ## 📜 License
 
