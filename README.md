@@ -2,7 +2,7 @@
 
 A minimal yet customizable Neovim colorscheme with **Lualine integration**.
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot.png) <!-- optional screenshot -->
+![screenshot](https://github.com/user-attachments/assets/06be7bc8-c1d4-45e9-8bb3-7c3606bd3c89)
 
 ## ✨ Features
 
@@ -57,10 +57,6 @@ require("lualine").setup({
   }
 })
 ```
-
-## 📷 Screenshots
-
-_(optional — add some screenshots of different modes: Normal, Insert, Visual, etc.)_
 
 ## 📜 License
 
