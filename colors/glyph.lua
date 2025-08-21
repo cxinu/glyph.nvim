@@ -9,7 +9,7 @@ vim.g.colors_name = "glyph"
 local highlights  = {
   -- Core UI
   Normal        = { fg = palette.fg, bg = palette.bg },
-  Cursor        = { fg = palette.bg, bg = palette.cursor }, -- BUG: the cursor colors doesn't apply?
+  TermCursor    = { fg = palette.bg, bg = palette.cursor }, -- BUG: the cursor colors doesn't apply?
   CursorLine    = { bg = palette.br_black },
   CursorColumn  = { bg = palette.br_black },
   Visual        = { bg = palette.gray },
@@ -63,6 +63,23 @@ local highlights  = {
   ["@string"]   = { fg = palette.green },
   ["@comment"]  = { fg = palette.br_black, italic = true },
   ["@constant"] = { fg = palette.orange, bold = true },
+
+
+  -- Markdown
+  ["@markup.heading.1.markdown"] = { fg = palette.purple, bold = true },
+  ["@markup.heading.2.markdown"] = { fg = palette.cyan, bold = true },
+  ["@markup.heading.3.markdown"] = { fg = palette.green, bold = true },
+  ["@markup.heading.4.markdown"] = { fg = palette.orange, bold = true },
+  ["@markup.heading.5.markdown"] = { fg = palette.yellow, bold = true },
+  ["@markup.heading.6.markdown"] = { fg = palette.magenta, bold = true },
+  ["@markup.strong"]             = { fg = palette.orange, bold = true },
+  ["@markup.italic"]             = { fg = palette.magenta, italic = true },
+  ["@markup.strikethrough"]      = { fg = palette.br_black, strikethrough = true },
+  ["@markup.link"]               = { fg = palette.teal, underline = true },
+  ["@markup.raw.inline"]         = { fg = palette.olive, bg = palette.bg_alt },
+  ["@markup.quote"]              = { fg = palette.yellow, italic = true },
+  ["@markup.list.marker"]        = { fg = palette.red },
+  ["@markup.thematic_break"]     = { fg = palette.br_blue },
 }
 
 for group, opts in pairs(highlights) do
