@@ -75,10 +75,11 @@ local highlights  = {
   ["@markup.strong"]             = { fg = palette.orange, bold = true },
   ["@markup.italic"]             = { fg = palette.magenta, italic = true },
   ["@markup.strikethrough"]      = { fg = palette.br_black, strikethrough = true },
-  ["@markup.link"]               = { fg = palette.teal, underline = true },
+  ["@markup.link"]               = { fg = palette.purple },
+  ["@markup.link.label"]         = { fg = palette.teal, underline = true },
   ["@markup.raw.inline"]         = { fg = palette.olive, bg = palette.bg_alt },
   ["@markup.quote"]              = { fg = palette.yellow, italic = true },
-  ["@markup.list.marker"]        = { fg = palette.red },
+  ["@markup.list"]               = { fg = palette.purple },
   ["@markup.thematic_break"]     = { fg = palette.br_blue },
 }
 
