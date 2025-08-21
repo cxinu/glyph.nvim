@@ -1,8 +1,11 @@
 local palette = require("glyph.palette")
 local set_hl = vim.api.nvim_set_hl
 
-vim.cmd("highlight clear")
-vim.cmd("syntax reset")
+if vim.v.vim_did_enter == 1 then
+  vim.cmd("highlight clear")
+  vim.cmd("syntax reset")
+end
+
 vim.o.background  = "dark"
 vim.g.colors_name = "glyph"
 
